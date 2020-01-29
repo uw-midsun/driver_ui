@@ -1,0 +1,136 @@
+.display {
+  font-family: "Roboto", sans-serif;
+  color: #eeeeee;
+  background-color: #111;
+  width: 800px;
+  height: 480px;
+}
+
+.speed-display {
+  position: relative;
+  top: 186px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.speed-num {
+  font-size: 90pt;
+  line-height: 1em;
+}
+
+.speed-unit {
+  font-size: 40pt;
+  line-height: 1em;
+}
+
+.range-bar-and-number {
+  position: absolute;
+  top: 48px;
+  left: 272px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.bar .bar-outline {
+  width: 256px;
+  height: 24px;
+  border: solid 2px;
+}
+
+.bar .bar-fill {
+  height: 24px;
+}
+
+.bar.green .bar-outline {
+  border-color: #3fc500;
+}
+
+.bar.green .bar-fill {
+  background-color: #3fc500;
+}
+
+.bar.yellow .bar-outline {
+  border-color: #ffc700;
+}
+
+.bar.yellow .bar-fill {
+  background-color: #ffc700;
+}
+
+.bar.red .bar-outline {
+  border-color: #de0000;
+}
+
+.bar.red .bar-fill {
+  background-color: #de0000;
+}
+
+.time-display {
+  position: absolute;
+  width: 189px;
+  height: 55px;
+  left: 618px;
+  top: 32px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.drive-state-display {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.charge-display {
+  position: absolute;
+  top: 48px;
+  left: 224px;
+  height: 24px;
+  width: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0;
+}
+
+.sun-and-plug {
+  margin-right: 12px;
+  height: 24px;
+}
+
+.turn-signals {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.left-signal {
+  position: absolute;
+  height: 54px;
+  top: 222px;
+  left: 112px;
+}
+
+.right-signal {
+  position: absolute;
+  top: 222px;
+  left: 616px;
+  height: 54px;
+}
+/*# sourceMappingURL=App.css.map */
